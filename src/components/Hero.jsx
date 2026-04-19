@@ -58,7 +58,8 @@ const Hero = () => {
               className="text-base md:text-lg text-slate-500 mb-8 max-w-2xl mx-auto leading-relaxed"
             >
               Pre-final year engineering student at East Point College, passionate about building 
-              innovative solutions and creating exceptional user experiences
+              innovative solutions and creating exceptional user experiences. Experienced in React, AI/ML, 
+              UI/UX Design, and Full-Stack Development with proven track record in real-world projects.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -73,6 +74,14 @@ const Hero = () => {
                 className="px-8 py-3 bg-primary text-white font-medium rounded-lg hover:bg-secondary transition-all shadow-lg hover:shadow-xl"
               >
                 View My Work
+              </a>
+              <a
+                href="https://munazir9741.hackerresume.io/dc485717-5083-407a-8ddf-535d575b37cd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 bg-white border-2 border-primary text-primary font-medium rounded-lg hover:bg-primary hover:text-white transition-all shadow-md"
+              >
+                Download Resume
               </a>
               <a
                 href="#contact"
@@ -90,24 +99,27 @@ const Hero = () => {
               className="flex justify-center space-x-6"
             >
               <a
-                href="https://github.com"
+                href="https://github.com/Munazir151"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-primary transition-colors"
+                aria-label="GitHub"
               >
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/munazir-ansari"
+                href="https://www.linkedin.com/in/munazir-ansari/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-primary transition-colors"
+                aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:munazir@example.com"
+                href="mailto:munazir9741@gmail.com"
                 className="text-slate-600 hover:text-primary transition-colors"
+                aria-label="Email"
               >
                 <Mail size={24} />
               </a>

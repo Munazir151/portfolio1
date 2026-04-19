@@ -107,18 +107,6 @@ const ProjectCard = ({ project, index }) => {
           {project.description}
         </p>
 
-        <div className="mb-4">
-          <h4 className="text-sm font-semibold text-primary mb-2">Key Features:</h4>
-          <ul className="space-y-1">
-            {project.features.slice(0, 4).map((feature, idx) => (
-              <li key={idx} className="text-sm text-slate-600 flex items-start">
-                <span className="text-primary mr-2">•</span>
-                {feature}
-              </li>
-            ))}
-          </ul>
-        </div>
-
         <div className="flex flex-wrap gap-2">
           {project.tech.map((tech, idx) => (
             <span

@@ -139,9 +139,9 @@ const About = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
                 { number: "9.15", label: "CGPA", sublabel: "Academic Excellence" },
-                { number: "15+", label: "Projects", sublabel: "Built & Deployed" },
-                { number: "5+", label: "Hackathons", sublabel: "Participated" },
-                { number: "2", label: "Internships", sublabel: "Professional Experience" }
+                { number: "6+", label: "Projects", sublabel: "Live & Deployed" },
+                { number: "18+", label: "Technologies", sublabel: "Mastered" },
+                { number: "2", label: "Internships", sublabel: "Google & Edunet" }
               ].map((stat, index) => (
                 <motion.div
                   key={index}
