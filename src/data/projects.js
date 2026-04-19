@@ -52,7 +52,7 @@ export const projects = [
     icon: Stethoscope,
     status: "Live",
     image: "/medivoice.png",
-    link: "https://frontend-six-pi-81.vercel.app"
+    link: "https://medivoice1.vercel.app"
   },
   {
     title: "Sovereign Finance — Admin Terminal",
